@@ -2,7 +2,7 @@
 
 WORKDIR /app
 
-COPY /. .
+COPY ./ .
 
 ENV ASPNETCORE_URLS http://+:5000
 
