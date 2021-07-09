@@ -2,7 +2,7 @@
 
 WORKDIR /app
 
-COPY /bin/release/netcoreapp3.1 .
+COPY . .
 
 ENV ASPNETCORE_URLS http://+:5000
 
